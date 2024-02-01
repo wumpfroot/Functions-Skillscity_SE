@@ -11,14 +11,13 @@ function add(a, b) {
 }
 add(2, 5);
 
-//shorter way
+//shorter way of declaring a function, using an arrow function
 let addShort = (a, b) => a + b;
 
 let result = addShort(5, 15);
 console.log(result);
 
-//arrow function
-
+//arrow function that asks two numbers, then multiplies them
 let multiply = () => {
 	num1 = parseInt(prompt("Input a number"));
 	num2 = parseInt(prompt("Input a second number"));
